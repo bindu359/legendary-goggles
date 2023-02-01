@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,n,i;
+    cout<<"\n enter n value :";
+    cin>>n;
+    for(i=0;i<n;i++)
+{
+    cout<<"\n enter two chocalate values:";
+    cin>>a>>b;
+    if(a>b)
+        {
+            cout<<b<<" is cheaper";
+        }
+        else if(a<b)
+        {
+        cout<<a<<" is cheaper";
+        }
+        else
+        {
+            cout<<"equal cost.Any option is ok";
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int i,n,a[i];
+    cout<<"enter no of elements";
+    cin>>n;
+    cout<<"enter elements";
+    for(i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"sorted order is\n";
+    for(i=0;i<n;i++)
+    {
+    cout<<a[i]<<" ";
+    }
+    cout<<"\n reversed order is";
+    for(i=n;i>0;i--)
+    {
+    cout<<a[i]<<" ";
+    }
+    
+}

@@ -1,0 +1,31 @@
+#include<iostream>
+int main(){
+    int option=0, vol=0, change=0, n=0;
+    std::cout<<"Enter number of testcases: ";
+    std::cin>>n;
+    for(int i=0;i<n;i++){
+        std::cout<<"Enter the volume: ";
+        std::cin>>vol;
+        std::cout<<"1. Increase\n2. Decrease\nEnter the option: ";
+        std::cin>>option;
+        if(option == 1){
+            std::cout<<"Enter increased volume: ";
+            std::cin>>change;
+            if(change < vol){
+                std::cout<<"Decreased volume !";
+                break;
+            }
+            std::cout<<(change - vol)<<" units increased\n";
+        }
+        else if(option == 2){
+            std::cout<<"Enter decreased volume: ";
+            std::cin>>change;
+            if(change > vol){
+                std::cout<<"Decreased volume !";
+                break;
+            }
+            std::cout<<(vol - change)<<" units decreased\n";
+        }else{std::cout<<"Wrong option!";};
+    }
+    return 0;
+}
