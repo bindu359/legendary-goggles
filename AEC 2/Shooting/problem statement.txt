@@ -1,0 +1,20 @@
+Arrays
+
+Problem Statement : CPP
+
+person a is trying to shoot person b  , who is hiding behide n number of people. everyone are standing in a stright line. a and b have same height and people between them are of differnent height. A wants to know the min number of perople who need to get shot so that B is visible in his line of sight. 
+
+note :
+1) line of sight is a stright line drawen between the top most like between 2 obj.
+2) B is visible to A if nobody betweeen them crosses this line.
+3) Even if people are of same height , B is visible to A 
+4) A and B have same height 
+
+Input format :
+1) The first line of input contains line int of T , denoting the no,of test cases
+2) first line of each test case contains 2 space separated int N and K, denoteing no.of players between A and B respectively
+3) second line of each test case contains M space separated int denoting the height of people betweeen A and B.
+
+Output Format :
+1) Each test case will have min no of players who need to get shot.
+
